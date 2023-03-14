@@ -1,0 +1,180 @@
+/* Gaya Umum */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Gaya Header */
+
+header {
+	background-color: #333;
+	padding: 20px 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav h1 {
+	color: #fff;
+	font-size: 24px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Gaya Tentang Saya */
+
+#tentang-saya {
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+.profile-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 40px;
+	float: left;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+}
+
+.box p {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+/* Gaya Keahlian */
+
+#keahlian {
+	background-color: #f1f1f1;
+	padding: 80px 0;
+}
+
+.skills {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills li {
+	display: flex;
+	align-items: center;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+.skills li i {
+	margin-right: 10px;
+	font-size: 24px;
+	color: #333;
+}
+
+/* Gaya Pengalaman */
+
+#pengalaman {
+	background-color: #fff;
+	padding: 80px 0;
+}
+
+.experience {
+	list-style: none;
+}
+
+.experience li {
+	margin-bottom: 40px;
+}
+
+.experience h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.experience .time {
+	color: #999;
+	margin-bottom: 10px;
+}
+
+/* Gaya Kontak */
+
+#kontak {
+	background-color: #f1f1f1;
+	padding: 80px 0;
+}
+
+.box form {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.box form label {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.box form input[type="text"], .box form input[type="email"], .box form textarea {
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.box form textarea {
+	height: 200px;
+	resize: none;
+}
+
+.box form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.box form input[type="submit"]:hover {
+	background-color:

@@ -1,0 +1,55 @@
+/* Style untuk body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style untuk header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style untuk judul */
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+/* Style untuk container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style untuk card keahlian */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Style untuk gambar keahlian */
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Style untuk judul keahlian */
+.card h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Style untuk deskripsi keahlian */
+.card p {
+  font-size: 18px;
+  margin-top: 0;
+}
